@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem; /* 16px == 100% == 1em */
+  margin: 100px auto 0 auto;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem; /* 40px / 16 = 2.5 */
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  height: 0px;
+  margin: 100px auto 100px auto;
+  width: 5%;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+/* Class */
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 150px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.title-h2 {
+  font-size: 1rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.profile-img {
+  height: 150px;
+  width: 150px;
+}
+
+.hello-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.icon {
+  width: 12%; /* this is to control of all icons in the skills and hobbies sections. */
+}
+
+.python-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.network-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.project-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.guitar-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.shoes-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  margin: 100px auto 100px;
+  text-align: left;
+  width: 50%;
+}
+
+.hobby-row {
+  margin: 100px auto 100px;
+  text-align: right;
+  width: 50%;
+}
+
+.strava-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.wg-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.strava-link:hover {
+  color: #EAF6F6;
+}
+
+.contact-me {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-title {
+  padding: 30px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: 50px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.copyright-line {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding-top: 20px;
+}
