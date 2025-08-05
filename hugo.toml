@@ -22,3 +22,7 @@ enableRobotsTXT = true
   [[menu.main]]
     name = "Contact"
     url = "/contact/"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
