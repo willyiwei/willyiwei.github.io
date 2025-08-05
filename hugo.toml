@@ -1,0 +1,24 @@
+baseURL = "https://willyiwei.github.io/"
+title = "William Yi"
+theme = "paper"
+languageCode = "en-us"
+pagination.pagerSize = 10
+enableRobotsTXT = true
+
+[params]
+  author = "William Yi"
+  description = "Software Leader | Networking & AI Evangelist | Investor | Runner"
+  color = "linen" # Options: linen, wheat, gray, light
+  github = "willyiwei"
+  linkedin = "willyi"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
